@@ -16,7 +16,7 @@
 
 -Add %g0,3,%L3
 
-2) Convertir a instrucciones SPARC V8, a binario de 32 bits usando el formato 3 y a número hexadecimal.
+2) Convertir a instrucciones SPARC V8, a binario de 32 bits usando el formato 3 y a nÃºmero hexadecimal.
 
 2.1) - y = x + 3;
 
@@ -27,14 +27,39 @@ imm = 3
 Add %L1,3,%L0
 
 10|10.000|0.0000.0|100.01|1|0.0000.0000.0010|
-| 10 |  0  |  0 |  4  |  6   |  0 |  0 |  2 |
+| A  |  0  |  0 |  4  |  6   |  0 |  0 |  2 |
  
 
+2.2) - z = z + 3;
+
+z = %L1
+imm = 3
+
+Add %L1,3,%L1
 
 
+10|10.001|0.0000.0|100.01|1|0.0000.0000.0011|
+| A  |  2  |  0 |  4  |  6   |  0 |  0 |  3 |
 
 
-
-
-- z = z + 3;
 - x = (x - z) + (3 + y);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
