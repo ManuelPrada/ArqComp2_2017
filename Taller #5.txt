@@ -1,0 +1,47 @@
+¿Que son los registros de estado?
+
+el registro de estado es un registro que contiene información sobre el estado actual del procesador, dependiendo de la arquitectura
+ este será un registro de 64 bits o un registro de 32 bits (en arquitecturas actuales).
+
+Actualmente solo se utiliza la parte baja del registro, exactamente los 32 bits de menos peso del registro (desde 0 a 31).
+
+Cada bit representa a una bandera o flag que expresa en qué estado se encuentra el procesador.
+
+En programación en lenguaje ensamblador consultamos el registro de estado a través del valor de un solo bit y dependiendo del valor de ese bit interpretaremos una cosa u otra.
+Significado de los bits del registros de estado
+
+En este apartado mostamos los bits de estado que vamos a utilizar en el ejemplo de programación en lenguaje ensamblador que hemos realizado.
+
+El bit de Carry, Zero, Sign y Overflow son los que se utilizan más comúnmente y son los que utilizaremos en el ejemplo siguiente.
+
+bit 0 CF
+
+Carry Flag 0 = sin transporte en la operación.
+
+Carry Flag 1 = se ha producido transporte.
+
+bit 2 PF
+
+Parity Flag 0 = número de bits 1 es impar.
+
+Parity Flag 1 = número de bits 1 es par.
+
+bit 6 ZF
+
+Zero Flag 0 = el resultado no cero.
+
+Zero Flag 1 = el resultado es cero.
+
+bit 7 SF
+
+Sign Flag 0 = el resultado no ha sido negativo.
+
+Sign Flag 1 = el resultado ha sido negativo.
+
+bit 11 OF
+
+Overflow Flag 0 = la operación NO ha producido desbordamiento.
+
+Overflow Flag 1 = la operación ha producido desbordamiento.
+
+bit 1-3-5-15-22 y 31 Están sin asignación
