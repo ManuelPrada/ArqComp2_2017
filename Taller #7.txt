@@ -1,0 +1,55 @@
+Tipos de instrucciones
+En el ensamblador de SPARC existen 3 tipos de instrucciones:
+
+*Directivos 
+
+Son órdenes dirigidas específicamente al compilador, en la nomenclatura de
+SPARC a los directivos también se les llama
+pseudo-operaciones. Se caracterizan porque todos ellos comienzan con un punto. Evidentemente, 
+los directivos pueden cambiar según el compilador de ensamblador que se emplee, su versión, etc.
+
+*Instrucciones máquina
+
+son las instrucciones que se traducen literalmente a código máquina.
+Estas instrucciones son la que aparecen en el juego de instrucciones de la máquina (ver
+apéndice A). Hay que tener en cuenta que el compilador de ensamblador no reordena las
+instrucciones para las bifurcaciones retardadas, ni para evitar las dependencias de datos;
+por ello, estas reordenaciones hay que hacerlas a mano. También hay que mencionar que,
+en el lenguaje ensamblador de SPARC, el operando destino siempre es el último.
+
+*Instrucciones sintéticas
+
+son instrucciones similares a las de la máquina pero que no existen en
+realidad. Es el compilador el que traduce cada instrucción sintética por otra equivalente
+a partir del conjunto de instrucciones máquina. Estas instrucciones existen para facilitar
+la programación y la legibilidad de los programas. Evidentemente, las instrucciones sin-
+téticas pueden depender del compilador de ensamblador que se utilice, sin embargo suele
+haber bastante consenso en su utilización. En la tabla B.1 se muestran las instrucciones
+sintéticas empleadas en el ensamblador para arquitecturas SPARC.
+También, como en otros lenguajes, existe la posibilidad de incorporar
+comentarios, esto puede hacerse de dos formas:
+
+Para los comentarios que ocupan varias líneas, puede emplearse la sintaxis del lenguaje
+C, es decir, abriendo el comentario con
+
+¿QUE SON LAS INSTRCCIONES SINTETICAS?
+
+
+RET es una instrucción sintética que corresponde a un JMPL. Esta 
+instrucción hace un salto a la dirección resultante de sumar 8 al 
+registro %i7 
+
+La dirección fuente (la del propio RET) se escribe a %g0 (o sea se 
+descarta)
+
+La instrucción restore es también sintética, y es la forma más 
+simple del restore, sin hacer ninguna suma.
+
+El llamante tiene el formato:
+
+CALL también es una instrucción sintética (JMPL). En este caso se 
+salva la dirección de retorno en el registro %o7. El “delay slot” se 
+usa en este caso para setear el primer parámetro en 0. El valor 
+de retorno también se pasa normalmente en %o0
+call <function>    ; jmpl <address>, %o7
+mov 0, %o0
