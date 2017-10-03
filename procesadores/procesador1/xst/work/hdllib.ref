@@ -1,0 +1,13 @@
+EN resgisterfile NULL F:/procesador1/resgisterfile.vhd sub00/vhpl08 1506995884
+AR programcounter behavioral F:/procesador1/ProgramCounter.vhd sub00/vhpl02 1506991471
+AR alu behavioral F:/procesador1/Alu.vhd sub00/vhpl12 1507004809
+EN registerfile NULL F:/procesador1/RegisterFile.vhd sub00/vhpl03 1506992621
+AR sumador behavioral F:/procesador1/sumador.vhd sub00/vhpl05 1506993309
+AR resgisterfile behavioral F:/procesador1/resgisterfile.vhd sub00/vhpl09 1506995885
+AR u_control behavioral F:/procesador1/U_control.vhd sub00/vhpl11 1506997751
+AR instructionmemory arqinstructionmemory F:/procesador1/IM.vhd sub00/vhpl07 1506994159
+EN instructionmemory NULL F:/procesador1/IM.vhd sub00/vhpl06 1506994158
+EN u_control NULL F:/procesador1/U_control.vhd sub00/vhpl10 1506997750
+EN programcounter NULL F:/procesador1/ProgramCounter.vhd sub00/vhpl01 1506991470
+EN sumador NULL F:/procesador1/sumador.vhd sub00/vhpl04 1506993308
+EN alu NULL F:/procesador1/Alu.vhd sub00/vhpl00 1507004808

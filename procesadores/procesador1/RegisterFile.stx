@@ -1,0 +1,39 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to F:/procesador1/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to F:/procesador1/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "F:/procesador1/RegisterFile.vhd" in Library work.
+Entity <registerfile> compiled.
+ERROR:HDLParsers:3312 - "F:/procesador1/RegisterFile.vhd" Line 48. Undefined symbol 'registro'.
+ERROR:HDLParsers:1209 - "F:/procesador1/RegisterFile.vhd" Line 48. registro: Undefined symbol (last report in this block)
+ERROR:HDLParsers:842 - "F:/procesador1/RegisterFile.vhd" Line 52. The type of the element in aggregate does not correspond to any array type.
+ERROR:HDLParsers:3312 - "F:/procesador1/RegisterFile.vhd" Line 55. Undefined symbol 'conv_integer'.
+ERROR:HDLParsers:1209 - "F:/procesador1/RegisterFile.vhd" Line 55. conv_integer: Undefined symbol (last report in this block)
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> 
+
+Total memory usage is 236196 kilobytes
+
+Number of errors   :    5 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
