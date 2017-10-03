@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "F:/procesador1/tb_sumador_isim_beh.exe" -prj "F:/procesador1/tb_sumador_beh.prj" "work.tb_sumador" 
