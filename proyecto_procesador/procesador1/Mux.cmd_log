@@ -1,0 +1,2 @@
+vhdtdtfi -prj procesador1 -o C:/Users/manuel/Desktop/proyecto_procesador/procesador1/Mux.vhi -module Mux -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Mux.vhd 
+vhdtdtfi -prj procesador1 -o C:/Users/manuel/Desktop/proyecto_procesador/procesador1/Mux.vhi -module Mux -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Mux.vhd 

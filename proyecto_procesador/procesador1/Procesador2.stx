@@ -1,0 +1,56 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/manuel/Desktop/proyecto_procesador/procesador1/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/manuel/Desktop/proyecto_procesador/procesador1/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/sumador.vhd" in Library work.
+Architecture behavioral of Entity sumador is up to date.
+Compiling vhdl file "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/ProgramCounter.vhd" in Library work.
+Architecture behavioral of Entity programcounter is up to date.
+Compiling vhdl file "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" in Library work.
+ERROR:HDLParsers:3313 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Undefined symbol 'tbemp_bv'.  Should it be: temp_bv?
+ERROR:HDLParsers:1209 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. tbemp_bv: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3326 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal parameter VALUE of procedure read must be associated with an actual value.
+ERROR:HDLParsers:3326 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal parameter VALUE of procedure read must be associated with an actual value.
+ERROR:HDLParsers:3325 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal VALUE of read of unconstrained array type must be associated with an actual value.
+ERROR:HDLParsers:3325 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal VALUE of read of unconstrained array type must be associated with an actual value.
+ERROR:HDLParsers:3326 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal parameter VALUE of procedure read must be associated with an actual value.
+ERROR:HDLParsers:3326 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal parameter VALUE of procedure read must be associated with an actual value.
+ERROR:HDLParsers:3326 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal parameter VALUE of procedure read must be associated with an actual value.
+ERROR:HDLParsers:3326 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal parameter VALUE of procedure read must be associated with an actual value.
+ERROR:HDLParsers:3326 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal parameter VALUE of procedure read must be associated with an actual value.
+ERROR:HDLParsers:3326 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal parameter VALUE of procedure read must be associated with an actual value.
+ERROR:HDLParsers:3326 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal parameter VALUE of procedure read must be associated with an actual value.
+ERROR:HDLParsers:3326 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal parameter VALUE of procedure read must be associated with an actual value.
+ERROR:HDLParsers:3325 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal VALUE of read of unconstrained array type must be associated with an actual value.
+ERROR:HDLParsers:3325 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal VALUE of read of unconstrained array type must be associated with an actual value.
+ERROR:HDLParsers:3326 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal parameter VALUE of procedure read must be associated with an actual value.
+ERROR:HDLParsers:3326 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal parameter VALUE of procedure read must be associated with an actual value.
+ERROR:HDLParsers:3325 - "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/IM.vhd" Line 36. Formal value of read of unconstrained array type must be associated with an actual value.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.30 secs
+ 
+--> 
+
+Total memory usage is 273396 kilobytes
+
+Number of errors   :   19 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
