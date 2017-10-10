@@ -30,26 +30,26 @@ architecture arqInstructionMemory of instructionMemory is
 		variable temp_bv : bit_vector(31 downto 0);
 		variable temp_mem : rom_type;
 		begin
-			for I in rom_type'range loop 
-				readline(RomFile, RomFileLine);
-				exit when endfile(Romfile);
+			for I in rom_type'range loop
+				readline (RomFile, RomFileLine);
 				read(RomFileLine, temp_bv);
 				temp_mem(i) := to_stdlogicvector(temp_bv);
 			end loop;
 		return temp_mem;
 	end function;
 	
-signal instructions : rom_type := InitRomFromFile("C:\Users\manuel\Desktop\ArqComp2-2017\procesador1\testJMPL.txt");
+	signal instructions : rom_type := InitRomFromFile("C:\Users\manuel\Desktop\ArqComp2-2017\ArqComp2_2017\procesador1\testJMPL.txt");
 	
 begin
-process(reset,address, instructions)--clk)
+--reset,address, instructions)
+	process(reset,address, instructions)--clk)
 	begin
-		
+		--if(rising_edge(clk))then
 			if(reset = '1')then
 				outInstruction <= (others=>'0');
 			else
 				outInstruction <= instructions(conv_integer(address(5 downto 0)));
 			end if;
+		--end if;
 	end process;
 end arqInstructionMemory;
-

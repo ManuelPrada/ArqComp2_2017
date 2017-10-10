@@ -77,6 +77,7 @@ BEGIN
 	
 	EntradaA <= x"0000001";
 	EntradaB <= x"000000A";
+	
 	 wait for 100 ns;	
 
 

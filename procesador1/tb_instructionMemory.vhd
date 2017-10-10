@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   08:51:48 10/09/2017
+-- Create Date:   13:35:53 09/30/2017
 -- Design Name:   
--- Module Name:   C:/Users/manuel/Desktop/proyecto_procesador/procesador1/tb_instructionMemory.vhd
+-- Module Name:   D:/arquivdhl/procesador1/tb_im.vhd
 -- Project Name:  procesador1
 -- Target Device:  
 -- Tool versions:  
@@ -32,10 +32,10 @@ USE ieee.std_logic_1164.ALL;
 -- arithmetic functions with Signed or Unsigned values
 --USE ieee.numeric_std.ALL;
  
-ENTITY tb_instructionMemory IS
-END tb_instructionMemory;
+ENTITY tb_im IS
+END tb_im;
  
-ARCHITECTURE behavior OF tb_instructionMemory IS 
+ARCHITECTURE behavior OF tb_im IS 
  
     -- Component Declaration for the Unit Under Test (UUT)
  
@@ -54,10 +54,8 @@ ARCHITECTURE behavior OF tb_instructionMemory IS
 
  	--Outputs
    signal outInstruction : std_logic_vector(31 downto 0);
-   -- No clocks detected in port list. Replace <clock> below with 
-   -- appropriate port name 
+  
  
-    
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
@@ -67,22 +65,16 @@ BEGIN
           outInstruction => outInstruction
         );
 
-   -- Clock process definitions
  
 
    -- Stimulus process
    stim_proc: process
    begin		
-	
-	 address<="10100000000101000100000000010010";
-	 reset<='0'; 
-	 
       -- hold reset state for 100 ns.
-      wait for 100 ns;	
+     address<="10100000000101000100000000010010";
+	  reset<='0'; wait for 100 ns;	
 
-
-      -- insert stimulus here 
-
+     
       wait;
    end process;
 

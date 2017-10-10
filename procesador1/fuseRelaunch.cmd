@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/instructionMemory_isim_beh.exe" -prj "C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/instructionMemory_beh.prj" "work.instructionMemory" 
+-intstyle "ise" -incremental -o "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/tb_sumador_isim_beh.exe" -prj "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/tb_sumador_beh.prj" "work.tb_sumador" 
