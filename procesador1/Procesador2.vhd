@@ -19,6 +19,7 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -36,6 +37,7 @@ entity procesador2 is
 end procesador2;
 
 architecture Behavioral of procesador2 is
+
 COMPONENT sumador
 	PORT(
 		entradaA : IN std_logic_vector(31 downto 0);
@@ -44,7 +46,8 @@ COMPONENT sumador
 		);
 	END COMPONENT;
 
-	COMPONENT ProgramCounter
+	
+	COMPONENT nextProgramCounter
 	PORT(
 		clk : IN std_logic;
 		entrada : IN std_logic_vector(31 downto 0);
@@ -75,7 +78,7 @@ COMPONENT resgisterfile
 		rs1 : IN std_logic_vector(4 downto 0);
 		rs2 : IN std_logic_vector(4 downto 0);
 		rd : IN std_logic_vector(4 downto 0);
-		rst : IN std_logic;
+		rst : IN std_logic;		
 		dwr : IN std_logic_vector(31 downto 0);          
 		rsalida1 : OUT std_logic_vector(31 downto 0);
 		rsalida2 : OUT std_logic_vector(31 downto 0)
@@ -108,28 +111,25 @@ COMPONENT Alu
 		);
 	END COMPONENT;
 
-
-
-
-signal  sumadorToPc, pcTonpc, pcToIM, imToURS, aluresult, rfToALU1, rfToMUX, seuToMUX, muxToALU:   STD_LOGIC_VECTOR (31 downto 0);
+signal  sumadorToNPC, npcToPC, pcToIM, imToURS, aluresult, rfToALU1, rfToMUX, seuToMUX, muxToALU:STD_LOGIC_VECTOR (31 downto 0);
 signal aluop1: STD_LOGIC_VECTOR (5 downto 0);
-
+begin
 Inst_sumador: sumador PORT MAP(
 		entradaA => x"00000001",
-		entradaB =>  pcTonpc ,
-		resultado => sumadorToPc 
-	);
-	
-Inst_ProgramCounter: ProgramCounter PORT MAP(
+		entradaB => npcToPC,
+		resultado =>sumadorToNPC
+		);
+
+Inst_nextProgramCounter: nextProgramCounter PORT MAP(
 		clk => clk,
-		entrada => sumadorToPc,
-		salida => pcTonpc,
+		entrada => sumadorToNPC,
+		salida => npcToPC,
 		rst => rst
 	);
-	
-Inst_nextProgramCounter: ProgramCounter PORT MAP(
+
+Inst_PC: nextProgramCounter PORT MAP(
 		clk => clk,
-		entrada => pcTonpc,
+		entrada => npcToPC,
 		salida => pcToIM,
 		rst => rst
 	);

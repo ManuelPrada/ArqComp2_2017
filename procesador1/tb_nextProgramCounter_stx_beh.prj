@@ -1,0 +1,2 @@
+vhdl isim_temp "nexPC.vhd"
+vhdl isim_temp "tb_nextProgramCounter.vhd"

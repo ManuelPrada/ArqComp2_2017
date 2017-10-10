@@ -1,5 +1,5 @@
 
--- VHDL Instantiation Created from source file sumador.vhd -- 12:13:18 10/10/2017
+-- VHDL Instantiation Created from source file sumador.vhd -- 13:55:32 10/10/2017
 --
 -- Notes: 
 -- 1) This instantiation template has been automatically generated using types

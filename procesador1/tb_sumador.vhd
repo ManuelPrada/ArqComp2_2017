@@ -2,10 +2,10 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   13:57:44 04/18/2016
+-- Create Date:   13:44:00 10/10/2017
 -- Design Name:   
--- Module Name:   /home/yengomez/Documents/procesadorImmediatos/tb_sumador.vhd
--- Project Name:  procesadorImmediatos
+-- Module Name:   C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/tb_sumador.vhd
+-- Project Name:  procesador1
 -- Target Device:  
 -- Tool versions:  
 -- Description:   
@@ -57,7 +57,7 @@ ARCHITECTURE behavior OF tb_sumador IS
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
-   --constant <clock>_period : time := 10 ns;
+--constant <clock>_period : time := 10 ns;
  
 BEGIN
  

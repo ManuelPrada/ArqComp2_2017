@@ -32,6 +32,7 @@ architecture arqInstructionMemory of instructionMemory is
 		begin
 			for I in rom_type'range loop
 				readline (RomFile, RomFileLine);
+				exit when endfile (RomFile);
 				read(RomFileLine, temp_bv);
 				temp_mem(i) := to_stdlogicvector(temp_bv);
 			end loop;
