@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/instructionMemory_isim_beh.exe" -prj "C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/instructionMemory_beh.prj" "work.instructionMemory" 
