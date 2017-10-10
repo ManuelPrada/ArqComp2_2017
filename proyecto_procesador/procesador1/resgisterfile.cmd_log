@@ -1,1 +1,0 @@
-vhdtdtfi -prj procesador1 -o C:/Users/manuel/Desktop/proyecto_procesador/procesador1/resgisterfile.vhi -module resgisterfile -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work resgisterfile.vhd 

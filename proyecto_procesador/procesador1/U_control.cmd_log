@@ -1,4 +1,0 @@
-vhdtdtfi -lib work U_control.vhd -prj procesador1 -o U_control.spl -module U_control -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e U_control.spl C:/Users/manuel/Desktop/proyecto_procesador/procesador1/U_control.sym 
-vhdtdtfi -prj procesador1 -o C:/Users/manuel/Desktop/proyecto_procesador/procesador1/U_control.vhi -module U_control -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work U_control.vhd 
-vhdtdtfi -prj procesador1 -o C:/Users/manuel/Desktop/proyecto_procesador/procesador1/U_control.vhi -module U_control -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work U_control.vhd 

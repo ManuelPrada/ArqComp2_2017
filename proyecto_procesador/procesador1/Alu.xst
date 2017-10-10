@@ -1,5 +1,0 @@
-set -tmpdir "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/manuel/Desktop/proyecto_procesador/procesador1/xst"
-elaborate
--ifn Alu.prj
--ifmt mixed

@@ -1,2 +1,0 @@
-xst -intstyle ise -ifn "F:/procesador1/Alu.xst" -ofn "F:/procesador1/Alu.syr" 
-vhdtdtfi -prj procesador1 -o C:/Users/manuel/Desktop/proyecto_procesador/procesador1/Alu.vhi -module Alu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Alu.vhd 
