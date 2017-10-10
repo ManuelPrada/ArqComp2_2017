@@ -5,14 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="2359" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/IM.vhd</arg>&quot; line <arg fmt="%d" index="2">42</arg>: Failed to open file &quot;<arg fmt="%s" index="3">testJMPL.data</arg>&quot;.
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
 </msg>
 
-<msg type="error" file="Xst" num="1920" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/IM.vhd</arg>&quot; line <arg fmt="%d" index="2">34</arg>: File &lt;<arg fmt="%s" index="3">RomFile</arg>&gt; is closed.
-</msg>
-
-<msg type="internal" file="Xst" num="0" delta="new" srcfile="../interf/cmain.c" srcline="3464" srcrcs="1.56" >
-Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support. 
+<msg type="warning" file="Xst" num="1336" delta="new" > (*) More than 100% of Device resources are used
 </msg>
 
 </messages>

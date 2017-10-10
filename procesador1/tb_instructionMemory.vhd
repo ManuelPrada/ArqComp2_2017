@@ -42,7 +42,7 @@ ARCHITECTURE behavior OF tb_im IS
     COMPONENT instructionMemory
     PORT(
          address : IN  std_logic_vector(31 downto 0);
-         reset : IN  std_logic;
+         rst : IN  std_logic;
          outInstruction : OUT  std_logic_vector(31 downto 0)
         );
     END COMPONENT;
@@ -50,7 +50,7 @@ ARCHITECTURE behavior OF tb_im IS
 
    --Inputs
    signal address : std_logic_vector(31 downto 0) := (others => '0');
-   signal reset : std_logic := '0';
+   signal rst : std_logic := '0';
 
  	--Outputs
    signal outInstruction : std_logic_vector(31 downto 0);
@@ -61,7 +61,7 @@ BEGIN
 	-- Instantiate the Unit Under Test (UUT)
    uut: instructionMemory PORT MAP (
           address => address,
-          reset => reset,
+          rst => rst,
           outInstruction => outInstruction
         );
 
@@ -72,7 +72,7 @@ BEGIN
    begin		
       -- hold reset state for 100 ns.
      address<="10100000000101000100000000010010";
-	  reset<='0'; wait for 100 ns;	
+	  rst<='0'; wait for 100 ns;	
 
      
       wait;

@@ -1,0 +1,6 @@
+[Inputs]
+rst
+=address[31:0]=
+[Outputs]
+=outInstruction[31:0]=
+[BiDir]

@@ -23,16 +23,30 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Alu.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Alu.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Alu.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Alu.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Alu.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Alu.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Alu.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Alu.prj"/>
-    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Alu.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Alu.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Alu.syr"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="Alu.vhi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Alu.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Alu_envsettings.html"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Alu_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Alu_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Alu_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Alu_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Alu_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Alu_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Alu_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Alu_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Alu_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Alu_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Alu_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Alu_usage.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Alu_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Alu_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Mux.prj"/>
@@ -72,16 +86,27 @@
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="U_control.stx"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="U_control.vhi"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="U_control.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="instructionMemory.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="instructionMemory.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="instructionMemory.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="instructionMemory.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="instructionMemory.spl"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="instructionMemory.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="instructionMemory.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="instructionMemory.syr"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="instructionMemory.vhi"/>
-    <file xil_pn:fileType="FILE_XST" xil_pn:name="instructionMemory.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="instructionMemory_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="instructionMemory.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="instructionMemory_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="instructionMemory_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="instructionMemory_isim_beh.wdb"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="instructionMemory_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="instructionMemory_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="instructionMemory_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="instructionMemory_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="instructionMemory_xst.xrpt"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
@@ -96,7 +121,7 @@
     <file xil_pn:fileType="FILE_XST" xil_pn:name="sumador.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_Alu_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_Alu_stx_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_Mux_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_MUX_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_Mux_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_ProgramCounter_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_ProgramCounter_stx_beh.prj"/>
@@ -116,6 +141,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_sumador_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
@@ -124,62 +150,80 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1507652744" xil_pn:in_ck="2473715585114105593" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1507652744">
+    <transform xil_pn:end_ts="1507655228" xil_pn:in_ck="4414386506811125148" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1507655228">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../../../../Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd"/>
-      <outfile xil_pn:name="Alu.vhd"/>
-      <outfile xil_pn:name="IM.vhd"/>
-      <outfile xil_pn:name="Mux.vhd"/>
-      <outfile xil_pn:name="ProgramCounter.vhd"/>
-      <outfile xil_pn:name="SEU.vhd"/>
-      <outfile xil_pn:name="U_control.vhd"/>
-      <outfile xil_pn:name="resgisterfile.vhd"/>
-      <outfile xil_pn:name="tb_Alu.vhd"/>
-      <outfile xil_pn:name="tb_Mux.vhd"/>
-      <outfile xil_pn:name="tb_ProgramCounter.vhd"/>
-      <outfile xil_pn:name="tb_SEU.vhd"/>
-      <outfile xil_pn:name="tb_U_control.vhd"/>
-      <outfile xil_pn:name="tb_instructionMemory.vhd"/>
-      <outfile xil_pn:name="tb_resgisterfile.vhd"/>
-      <outfile xil_pn:name="tb_sumador.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1507652360" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8686255305041381830" xil_pn:start_ts="1507652360">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1507652360" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3604183737369529672" xil_pn:start_ts="1507652360">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1507651433" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1547790162847752448" xil_pn:start_ts="1507651433">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1507652747" xil_pn:in_ck="2473715585114105593" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1507652747">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../../../../Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd"/>
-      <outfile xil_pn:name="Alu.vhd"/>
-      <outfile xil_pn:name="IM.vhd"/>
-      <outfile xil_pn:name="Mux.vhd"/>
-      <outfile xil_pn:name="ProgramCounter.vhd"/>
-      <outfile xil_pn:name="SEU.vhd"/>
-      <outfile xil_pn:name="U_control.vhd"/>
-      <outfile xil_pn:name="resgisterfile.vhd"/>
-      <outfile xil_pn:name="tb_Alu.vhd"/>
-      <outfile xil_pn:name="tb_Mux.vhd"/>
-      <outfile xil_pn:name="tb_ProgramCounter.vhd"/>
-      <outfile xil_pn:name="tb_SEU.vhd"/>
-      <outfile xil_pn:name="tb_U_control.vhd"/>
-      <outfile xil_pn:name="tb_instructionMemory.vhd"/>
-      <outfile xil_pn:name="tb_resgisterfile.vhd"/>
-      <outfile xil_pn:name="tb_sumador.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1507652752" xil_pn:in_ck="2473715585114105593" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8017992836553026734" xil_pn:start_ts="1507652747">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../../../../Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd"/>
+      <outfile xil_pn:name="../../../../Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd"/>
+      <outfile xil_pn:name="Alu.vhd"/>
+      <outfile xil_pn:name="IM.vhd"/>
+      <outfile xil_pn:name="ProgramCounter.vhd"/>
+      <outfile xil_pn:name="SEU.vhd"/>
+      <outfile xil_pn:name="U_control.vhd"/>
+      <outfile xil_pn:name="procesador2.vhd"/>
+      <outfile xil_pn:name="resgisterfile.vhd"/>
+      <outfile xil_pn:name="tb_Alu.vhd"/>
+      <outfile xil_pn:name="tb_MUX.vhd"/>
+      <outfile xil_pn:name="tb_ProgramCounter.vhd"/>
+      <outfile xil_pn:name="tb_SEU.vhd"/>
+      <outfile xil_pn:name="tb_U_control.vhd"/>
+      <outfile xil_pn:name="tb_instructionMemory.vhd"/>
+      <outfile xil_pn:name="tb_resgisterfile.vhd"/>
+      <outfile xil_pn:name="tb_sumador.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1507654608" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8686255305041381830" xil_pn:start_ts="1507654608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1507654608" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3604183737369529672" xil_pn:start_ts="1507654608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1507654608" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-479859295639739239" xil_pn:start_ts="1507654608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1507654751" xil_pn:in_ck="1848856234893044744" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1507654751">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../../../../Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd"/>
+      <outfile xil_pn:name="../../../../Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd"/>
+      <outfile xil_pn:name="Alu.vhd"/>
+      <outfile xil_pn:name="IM.vhd"/>
+      <outfile xil_pn:name="ProgramCounter.vhd"/>
+      <outfile xil_pn:name="SEU.vhd"/>
+      <outfile xil_pn:name="U_control.vhd"/>
+      <outfile xil_pn:name="resgisterfile.vhd"/>
+      <outfile xil_pn:name="tb_Alu.vhd"/>
+      <outfile xil_pn:name="tb_MUX.vhd"/>
+      <outfile xil_pn:name="tb_ProgramCounter.vhd"/>
+      <outfile xil_pn:name="tb_SEU.vhd"/>
+      <outfile xil_pn:name="tb_U_control.vhd"/>
+      <outfile xil_pn:name="tb_instructionMemory.vhd"/>
+      <outfile xil_pn:name="tb_resgisterfile.vhd"/>
+      <outfile xil_pn:name="tb_sumador.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1507654755" xil_pn:in_ck="1848856234893044744" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8017992836553026734" xil_pn:start_ts="1507654751">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
@@ -188,9 +232,11 @@
       <outfile xil_pn:name="tb_sumador_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1507652802" xil_pn:in_ck="-6147607164027031328" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6543396808842833733" xil_pn:start_ts="1507652802">
+    <transform xil_pn:end_ts="1507654773" xil_pn:in_ck="-8743153549702218592" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6543396808842833733" xil_pn:start_ts="1507654773">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
@@ -201,10 +247,80 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1506991179" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1210076599156103590" xil_pn:start_ts="1506991179">
+    <transform xil_pn:end_ts="1507657840" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7863675631946613945" xil_pn:start_ts="1507657840">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1507657840" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1547790162847752448" xil_pn:start_ts="1507657840">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1507657840" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1507657840">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1507657840" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-2964161847311656507" xil_pn:start_ts="1507657840">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1507657840" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280845075520" xil_pn:start_ts="1507657840">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1507657840" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6770398150311098038" xil_pn:start_ts="1507657840">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1507657856" xil_pn:in_ck="7090095468872656944" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="7993587799915643133" xil_pn:start_ts="1507657840">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="Alu.lso"/>
+      <outfile xil_pn:name="Alu.ngc"/>
+      <outfile xil_pn:name="Alu.ngr"/>
+      <outfile xil_pn:name="Alu.prj"/>
+      <outfile xil_pn:name="Alu.stx"/>
+      <outfile xil_pn:name="Alu.syr"/>
+      <outfile xil_pn:name="Alu.xst"/>
+      <outfile xil_pn:name="Alu_stx_beh.prj"/>
+      <outfile xil_pn:name="Alu_vhdl.prj"/>
+      <outfile xil_pn:name="Alu_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1507657856" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1210076599156103590" xil_pn:start_ts="1507657856">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1507657870" xil_pn:in_ck="88312569576" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8159005217527212851" xil_pn:start_ts="1507657856">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Alu.bld"/>
+      <outfile xil_pn:name="Alu.ngd"/>
+      <outfile xil_pn:name="Alu_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1507657884" xil_pn:in_ck="88312569577" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-873285459045022562" xil_pn:start_ts="1507657870">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Alu.pcf"/>
+      <outfile xil_pn:name="Alu_map.map"/>
+      <outfile xil_pn:name="Alu_map.mrp"/>
+      <outfile xil_pn:name="Alu_map.ncd"/>
+      <outfile xil_pn:name="Alu_map.ngm"/>
+      <outfile xil_pn:name="Alu_map.xrpt"/>
+      <outfile xil_pn:name="Alu_summary.xml"/>
+      <outfile xil_pn:name="Alu_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
   </transforms>
 

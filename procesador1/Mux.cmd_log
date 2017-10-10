@@ -1,2 +1,3 @@
 vhdtdtfi -prj procesador1 -o C:/Users/manuel/Desktop/proyecto_procesador/procesador1/Mux.vhi -module Mux -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Mux.vhd 
 vhdtdtfi -prj procesador1 -o C:/Users/manuel/Desktop/proyecto_procesador/procesador1/Mux.vhi -module Mux -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Mux.vhd 
+vhdtdtfi -prj procesador1 -o C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/Mux.vhi -module MUX -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work "../../../../Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd" 

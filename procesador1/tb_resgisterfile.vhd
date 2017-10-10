@@ -45,7 +45,7 @@ ARCHITECTURE behavior OF tb_resgisterfile IS
          rs1 : IN  std_logic_vector(4 downto 0);
          rs2 : IN  std_logic_vector(4 downto 0);
          rd : IN  std_logic_vector(4 downto 0);
-         reset : IN  std_logic;
+         rst : IN  std_logic;
 			dwr : IN  std_logic_vector(31 downto 0);
          rsalida1 : OUT  std_logic_vector(31 downto 0);
          rsalida2 : OUT  std_logic_vector(31 downto 0)
@@ -57,7 +57,7 @@ ARCHITECTURE behavior OF tb_resgisterfile IS
    signal rs1 : std_logic_vector(4 downto 0) := (others => '0');
    signal rs2 : std_logic_vector(4 downto 0) := (others => '0');
    signal rd : std_logic_vector(4 downto 0) := (others => '0');
-   signal reset : std_logic := '0';
+   signal rst : std_logic := '0';
    signal dwr : std_logic_vector(31 downto 0) := (others => '0');
 
  	--Outputs
@@ -75,7 +75,7 @@ BEGIN
           rs1 => rs1,
           rs2 => rs2,
           rd => rd,
-          reset => reset,
+          rst => rst,
 			 dwr => dwr,
           rsalida1 => rsalida1,
           rsalida2 => rsalida2
@@ -89,14 +89,14 @@ BEGIN
      rs1<="00001";
 	  rs1<="00010";
 	  rd <="00011";
-	  reset<='0';	
+	  rst<='0';	
 	  dwr<=x"00000004";
       wait for 100 ns;	
 	  
      rs2<="00001";
 	  rs2<="00010";
 	  rd <="00011";
-	  reset<='1';
+	  rst<='1';
 	  dwr<=x"00000004";
 
      

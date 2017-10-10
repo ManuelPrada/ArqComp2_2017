@@ -1,5 +1,5 @@
 
--- VHDL Instantiation Created from source file Alu.vhd -- 13:35:37 10/09/2017
+-- VHDL Instantiation Created from source file Alu.vhd -- 12:47:12 10/10/2017
 --
 -- Notes: 
 -- 1) This instantiation template has been automatically generated using types

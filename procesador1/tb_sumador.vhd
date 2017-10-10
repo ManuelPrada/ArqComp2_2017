@@ -2,10 +2,10 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   23:04:57 09/28/2017
+-- Create Date:   13:57:44 04/18/2016
 -- Design Name:   
--- Module Name:   D:/arquivdhl/procesador1/tb_sumador.vhd
--- Project Name:  procesador1
+-- Module Name:   /home/yengomez/Documents/procesadorImmediatos/tb_sumador.vhd
+-- Project Name:  procesadorImmediatos
 -- Target Device:  
 -- Tool versions:  
 -- Description:   
@@ -41,38 +41,52 @@ ARCHITECTURE behavior OF tb_sumador IS
  
     COMPONENT sumador
     PORT(
-         op2 : IN  std_logic_vector(31 downto 0);
-         result : OUT  std_logic_vector(31 downto 0)
+         entradaA : IN  std_logic_vector(31 downto 0);
+         entradaB : IN  std_logic_vector(31 downto 0);
+         resultado : OUT  std_logic_vector(31 downto 0)
         );
     END COMPONENT;
     
 
    --Inputs
-   signal op2 : std_logic_vector(31 downto 0) := (others => '0');
+   signal entradaA : std_logic_vector(31 downto 0) := (others => '0');
+   signal entradaB : std_logic_vector(31 downto 0) := (others => '0');
 
  	--Outputs
-   signal result : std_logic_vector(31 downto 0);
+   signal resultado : std_logic_vector(31 downto 0);
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
-   
+   --constant <clock>_period : time := 10 ns;
  
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
    uut: sumador PORT MAP (
-          op2 => op2,
-          result => result
+          entradaA => entradaA,
+          entradaB => entradaB,
+          resultado => resultado
         );
 
+   -- Clock process definitions
+--   <clock>_process :process
+--   begin
+--		<clock> <= '0';
+--		wait for <clock>_period/2;
+--		<clock> <= '1';
+--		wait for <clock>_period/2;
+--   end process;
+-- 
 
    -- Stimulus process
    stim_proc: process
    begin		
+		entradaA <= x"00000001";
+		entradaB <= x"00000002";
      
-     op2<=x"0000000F"; wait for 100 ns;	
+      --wait for <clock>_period*10;
 
-   
+      -- insert stimulus here 
 
       wait;
    end process;

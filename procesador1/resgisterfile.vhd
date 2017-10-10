@@ -36,7 +36,7 @@ Port (
            rs1 : in  STD_LOGIC_VECTOR (4 downto 0);
            rs2 : in  STD_LOGIC_VECTOR (4 downto 0);
            rd : in  STD_LOGIC_VECTOR (4 downto 0);
-			  reset : in  STD_LOGIC;
+			  rst : in  STD_LOGIC;
            dwr : in STD_LOGIC_VECTOR (31 downto 0);
            rsalida1 : out  STD_LOGIC_VECTOR (31 downto 0);
            rsalida2 : out  STD_LOGIC_VECTOR (31 downto 0));
@@ -49,10 +49,10 @@ signal rgs : ram_type :=(others => x"00000000");
 
 begin
 
-process(reset,rs1,rs2,rd,dwr)
+process(rst,rs1,rs2,rd,dwr)
 	begin
 	
-			if(reset = '1')then
+			if(rst = '1')then
 				rsalida1 <= (others=>'0');
 				rsalida2 <= (others=>'0');
 

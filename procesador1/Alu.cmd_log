@@ -1,2 +1,6 @@
 xst -intstyle ise -ifn "F:/procesador1/Alu.xst" -ofn "F:/procesador1/Alu.syr" 
 vhdtdtfi -prj procesador1 -o C:/Users/manuel/Desktop/proyecto_procesador/procesador1/Alu.vhi -module Alu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Alu.vhd 
+vhdtdtfi -prj procesador1 -o C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/Alu.vhi -module Alu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Alu.vhd 
+xst -intstyle ise -ifn "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/Alu.xst" -ofn "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/Alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 Alu.ngc Alu.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o Alu_map.ncd Alu.ngd Alu.pcf 

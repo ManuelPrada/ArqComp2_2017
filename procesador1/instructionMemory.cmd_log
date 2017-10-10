@@ -1,1 +1,5 @@
 vhdtdtfi -prj procesador1 -o C:/Users/manuel/Desktop/proyecto_procesador/procesador1/instructionMemory.vhi -module instructionMemory -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work IM.vhd 
+vhdtdtfi -lib work IM.vhd -prj procesador1 -o instructionMemory.spl -module instructionMemory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e instructionMemory.spl C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/instructionMemory.sym 
+xst -intstyle ise -ifn "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/instructionMemory.xst" -ofn "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/instructionMemory.syr" 
+vhdtdtfi -prj procesador1 -o C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/instructionMemory.vhi -module instructionMemory -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work IM.vhd 

@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    09:27:35 10/09/2017 
+-- Create Date:    21:28:41 10/05/2017 
 -- Design Name: 
--- Module Name:    Mux - Behavioral 
+-- Module Name:    MUX - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,27 +29,27 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity Mux is
-    Port ( i : in  STD_LOGIC;
-           Crs2 : in  STD_LOGIC_VECTOR (31 downto 0);
-           E_seu : in  STD_LOGIC_VECTOR (31 downto 0);
-           S_mux : out  STD_LOGIC_VECTOR (31 downto 0));
-end Mux;
+entity MUX is
+    Port ( I : in  STD_LOGIC;
+           salseu : in  STD_LOGIC_VECTOR (31 downto 0);
+           salrs2 : in  STD_LOGIC_VECTOR (31 downto 0);
+           salmux : out  STD_LOGIC_VECTOR (31 downto 0));
+end MUX;
 
-architecture Behavioral of Mux is
+architecture Behavioral of MUX is
 
 begin
-
-process(i,E_seu,Crs2)
+process(I,salseu,salrs2)
 begin
-	if(i='1')then
-	   S_mux<= E_seu;
-	else 
-		if(i='0')then
-			S_mux <= Crs2;
-		end if ; 
-end if;
-
+  if(I='1')then
+     salmux<=salseu;
+  else
+     salmux<=salrs2;
+  end if;
+	
 end process;
+  
+
+
 end Behavioral;
 

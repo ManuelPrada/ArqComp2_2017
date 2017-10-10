@@ -1,5 +1,5 @@
 
--- VHDL Instantiation Created from source file U_control.vhd -- 13:14:24 10/09/2017
+-- VHDL Instantiation Created from source file U_control.vhd -- 12:27:24 10/10/2017
 --
 -- Notes: 
 -- 1) This instantiation template has been automatically generated using types

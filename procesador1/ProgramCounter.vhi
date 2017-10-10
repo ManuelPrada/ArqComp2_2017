@@ -1,5 +1,5 @@
 
--- VHDL Instantiation Created from source file ProgramCounter.vhd -- 13:00:25 10/09/2017
+-- VHDL Instantiation Created from source file ProgramCounter.vhd -- 12:18:12 10/10/2017
 --
 -- Notes: 
 -- 1) This instantiation template has been automatically generated using types

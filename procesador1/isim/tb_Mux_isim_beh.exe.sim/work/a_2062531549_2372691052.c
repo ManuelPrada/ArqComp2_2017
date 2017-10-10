@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/tb_Mux.vhd";
+static const char *ng0 = "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/tb_MUX.vhd";
 
 
 
@@ -44,7 +44,7 @@ LAB0:    t1 = (t0 + 2672U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(80, ng0);
+LAB2:    xsi_set_current_line(78, ng0);
     t2 = (t0 + 3056);
     t3 = (t2 + 56U);
     t4 = *((char **)t3);
@@ -52,8 +52,8 @@ LAB2:    xsi_set_current_line(80, ng0);
     t6 = *((char **)t5);
     *((unsigned char *)t6) = (unsigned char)3;
     xsi_driver_first_trans_fast(t2);
-    xsi_set_current_line(81, ng0);
-    t2 = (t0 + 5297);
+    xsi_set_current_line(79, ng0);
+    t2 = (t0 + 5305);
     t4 = (t0 + 3120);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -61,8 +61,8 @@ LAB2:    xsi_set_current_line(80, ng0);
     t8 = *((char **)t7);
     memcpy(t8, t2, 32U);
     xsi_driver_first_trans_fast(t4);
-    xsi_set_current_line(82, ng0);
-    t2 = (t0 + 5329);
+    xsi_set_current_line(80, ng0);
+    t2 = (t0 + 5337);
     t4 = (t0 + 3184);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -70,7 +70,7 @@ LAB2:    xsi_set_current_line(80, ng0);
     t8 = *((char **)t7);
     memcpy(t8, t2, 32U);
     xsi_driver_first_trans_fast(t4);
-    xsi_set_current_line(85, ng0);
+    xsi_set_current_line(83, ng0);
     t9 = (100 * 1000LL);
     t2 = (t0 + 2480);
     xsi_process_wait(t2, t9);
@@ -78,7 +78,7 @@ LAB2:    xsi_set_current_line(80, ng0);
 LAB6:    *((char **)t1) = &&LAB7;
 
 LAB1:    return;
-LAB4:    xsi_set_current_line(91, ng0);
+LAB4:    xsi_set_current_line(89, ng0);
 
 LAB10:    *((char **)t1) = &&LAB11;
     goto LAB1;
@@ -99,6 +99,6 @@ LAB11:    goto LAB9;
 extern void work_a_2062531549_2372691052_init()
 {
 	static char *pe[] = {(void *)work_a_2062531549_2372691052_p_0};
-	xsi_register_didat("work_a_2062531549_2372691052", "isim/tb_Mux_isim_beh.exe.sim/work/a_2062531549_2372691052.didat");
+	xsi_register_didat("work_a_2062531549_2372691052", "isim/tb_MUX_isim_beh.exe.sim/work/a_2062531549_2372691052.didat");
 	xsi_register_executes(pe);
 }

@@ -9,12 +9,13 @@ Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling package numeric_std
-Compiling architecture behavioral of entity sumador [sumador_default]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture arq_sumador of entity sumador [sumador_default]
 Compiling architecture behavior of entity tb_sumador
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 6 VHDL Units
+Compiled 7 VHDL Units
 Built simulation executable C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/tb_sumador_isim_beh.exe
-Fuse Memory Usage: 35712 KB
-Fuse CPU Usage: 655 ms
+Fuse Memory Usage: 34148 KB
+Fuse CPU Usage: 593 ms

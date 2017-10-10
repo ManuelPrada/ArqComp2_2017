@@ -2,15 +2,15 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   09:30:48 10/09/2017
+-- Create Date:   11:38:18 10/10/2017
 -- Design Name:   
--- Module Name:   C:/Users/manuel/Desktop/proyecto_procesador/procesador1/tb_Mux.vhd
+-- Module Name:   C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/tb_MUX.vhd
 -- Project Name:  procesador1
 -- Target Device:  
 -- Tool versions:  
 -- Description:   
 -- 
--- VHDL Test Bench Created by ISE for module: Mux
+-- VHDL Test Bench Created by ISE for module: MUX
 -- 
 -- Dependencies:
 -- 
@@ -32,59 +32,57 @@ USE ieee.std_logic_1164.ALL;
 -- arithmetic functions with Signed or Unsigned values
 --USE ieee.numeric_std.ALL;
  
-ENTITY tb_Mux IS
-END tb_Mux;
+ENTITY tb_MUX IS
+END tb_MUX;
  
-ARCHITECTURE behavior OF tb_Mux IS 
+ARCHITECTURE behavior OF tb_MUX IS 
  
     -- Component Declaration for the Unit Under Test (UUT)
  
-    COMPONENT Mux
+    COMPONENT MUX
     PORT(
-         i : IN  std_logic;
-         Crs2 : IN  std_logic_vector(31 downto 0);
-         E_seu : IN  std_logic_vector(31 downto 0);
-         S_mux : OUT  std_logic_vector(31 downto 0)
+         I : IN  std_logic;
+         salseu : IN  std_logic_vector(31 downto 0);
+         salrs2 : IN  std_logic_vector(31 downto 0);
+         salmux : OUT  std_logic_vector(31 downto 0)
         );
     END COMPONENT;
     
 
    --Inputs
-   signal i : std_logic := '0';
-   signal Crs2 : std_logic_vector(31 downto 0) := (others => '0');
-   signal E_seu : std_logic_vector(31 downto 0) := (others => '0');
+   signal I : std_logic := '0';
+   signal salseu : std_logic_vector(31 downto 0) := (others => '0');
+   signal salrs2 : std_logic_vector(31 downto 0) := (others => '0');
 
  	--Outputs
-   signal S_mux : std_logic_vector(31 downto 0);
+   signal salmux : std_logic_vector(31 downto 0);
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
- 
+  
  
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
-   uut: Mux PORT MAP (
-          i => i,
-          Crs2 => Crs2,
-          E_seu => E_seu,
-          S_mux => S_mux
+   uut: MUX PORT MAP (
+          I => I,
+          salseu => salseu,
+          salrs2 => salrs2,
+          salmux => salmux
         );
 
-   
- 
-
+   -- Clock process definitions
    -- Stimulus process
    stim_proc: process
    begin		
-		i <='1';
-		E_seu <= x"00000006";
-      Crs2 <= x"00000009";
+		I <='1';
+		salseu <= x"00000006";
+      salrs2 <= x"00000005";
 		
       -- hold reset state for 100 ns.
       wait for 100 ns;	
 
-   
+
 
       -- insert stimulus here 
 

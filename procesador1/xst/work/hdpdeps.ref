@@ -1,26 +1,27 @@
-V3 80
+V3 84
 FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/Alu.vhd 2017/10/10.09:05:07 P.20131013
-EN work/Alu 1507651317 \
+EN work/Alu 1507657844 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/Alu.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/Alu/Behavioral 1507651318 \
+AR work/Alu/Behavioral 1507657845 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/Alu.vhd \
-      EN work/Alu 1507651317
-FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/IM.vhd 2017/10/10.11:18:13 P.20131013
-EN work/instructionMemory 1507652296 \
+      EN work/Alu 1507657844
+FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/IM.vhd 2017/10/10.12:04:24 P.20131013
+EN work/instructionMemory 1507656182 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/IM.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
       PB std/TEXTIO 1381692176
-AR work/instructionMemory/arqInstructionMemory 1507652297 \
+AR work/instructionMemory/arqInstructionMemory 1507656183 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/IM.vhd \
-      EN work/instructionMemory 1507652296
+      EN work/instructionMemory 1507656182
 FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/Mux.vhd 2017/10/09.09:29:39 P.20131013
-EN work/Mux 1507651327 \
-      FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/Mux.vhd \
+FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/procesador2.vhd 2017/10/10.12:22:59 P.20131013
+EN work/Procesador2 1507646228 \
+      FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/procesador2.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/Mux/Behavioral 1507651328 \
-      FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/Mux.vhd \
-      EN work/Mux 1507651327
+AR work/procesador2/Behavioral 0 \
+      FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/procesador2.vhd \
+      EN work/Procesador2 1507646228
 FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/ProgramCounter.vhd 2017/10/02.19:44:28 P.20131013
 EN work/ProgramCounter 1507651338 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/ProgramCounter.vhd \
@@ -28,13 +29,13 @@ EN work/ProgramCounter 1507651338 \
 AR work/ProgramCounter/Behavioral 1507651339 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/ProgramCounter.vhd \
       EN work/ProgramCounter 1507651338
-FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/resgisterfile.vhd 2017/10/09.08:47:48 P.20131013
-EN work/resgisterfile 1507651355 \
+FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/resgisterfile.vhd 2017/10/10.12:05:16 P.20131013
+EN work/resgisterfile 1507655119 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/resgisterfile.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/resgisterfile/Behavioral 1507651356 \
+AR work/resgisterfile/Behavioral 1507655120 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/resgisterfile.vhd \
-      EN work/resgisterfile 1507651355
+      EN work/resgisterfile 1507655119
 FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/sumador.vhd 2017/10/02.20:15:06 P.20131013
 FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/U_control.vhd 2017/10/10.09:00:05 P.20131013
 EN work/U_control 1507651345 \
@@ -56,10 +57,6 @@ FL C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/Alu.vhd 2017/10/10.09:05:07
 FL C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/IM.vhd 2017/10/10.09:52:06 P.20131013
 FL C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/Mux.vhd 2017/10/09.09:29:39 P.20131013
 FL C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/Procesador2.vhd 2017/10/10.00:52:05 P.20131013
-EN work/Procesador2 1507646228 \
-      FL C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/Procesador2.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
-      PB std/TEXTIO 1381692176
 AR work/Procesador2/arq_procesador2 1507646229 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/Procesador2.vhd \
       EN work/Procesador2 1507646228 CP sumador CP ProgramCounter \
@@ -92,13 +89,23 @@ FL C:/Users/manuel/Desktop/proyecto_procesador/procesador1/resgisterfile.vhd 201
 FL C:/Users/manuel/Desktop/proyecto_procesador/procesador1/SEU.vhd 2017/10/05.19:46:09 P.20131013
 FL C:/Users/manuel/Desktop/proyecto_procesador/procesador1/sumador.vhd 2017/10/02.20:15:06 P.20131013
 FL C:/Users/manuel/Desktop/proyecto_procesador/procesador1/U_control.vhd 2017/10/02.21:29:08 P.20131013
-FL "C:/Users/manuel/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd" 2017/10/09.12:31:04 P.20131013
-EN work/sumador 1507652660 \
+FL "C:/Users/manuel/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd" 2017/10/10.11:55:10 P.20131013
+AR work/sumador/Behavioral -1 \
       FL "C:/Users/manuel/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/sumador/Behavioral 1507652661 \
+      EN work/sumador 1507654517
+EN work/sumador 1507654517 \
       FL "C:/Users/manuel/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd" \
-      EN work/sumador 1507652660
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sumador/arq_sumador 1507654518 \
+      FL "C:/Users/manuel/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd" \
+      EN work/sumador 1507654517
+FL "C:/Users/manuel/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd" 2017/10/10.11:34:30 P.20131013
+EN work/Mux 1507653273 \
+      FL "C:/Users/manuel/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Mux/Behavioral 1507653274 \
+      FL "C:/Users/manuel/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd" \
+      EN work/Mux 1507653273
 FL E:/procesador1/Alu.vhd 2017/10/02.17:54:42 P.20131013
 FL F:/procesador1/Alu.vhd 2017/10/02.23:26:44 P.20131013
 FL F:/procesador1/IM.vhd 2017/10/02.20:29:04 P.20131013
