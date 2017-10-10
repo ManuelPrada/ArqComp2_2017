@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   20:15:35 10/02/2017
+-- Create Date:   23:04:57 09/28/2017
 -- Design Name:   
--- Module Name:   F:/procesador1/tb_sumador.vhd
+-- Module Name:   D:/arquivdhl/procesador1/tb_sumador.vhd
 -- Project Name:  procesador1
 -- Target Device:  
 -- Tool versions:  
@@ -41,47 +41,38 @@ ARCHITECTURE behavior OF tb_sumador IS
  
     COMPONENT sumador
     PORT(
-         EntradaA : IN  std_logic_vector(31 downto 0);
-         EntradaB : IN  std_logic_vector(31 downto 0);
-         Salida : OUT  std_logic_vector(31 downto 0)
+         op2 : IN  std_logic_vector(31 downto 0);
+         result : OUT  std_logic_vector(31 downto 0)
         );
     END COMPONENT;
     
 
    --Inputs
-   signal EntradaA : std_logic_vector(31 downto 0) := (others => '0');
-   signal EntradaB : std_logic_vector(31 downto 0) := (others => '0');
+   signal op2 : std_logic_vector(31 downto 0) := (others => '0');
 
  	--Outputs
-   signal Salida : std_logic_vector(31 downto 0);
+   signal result : std_logic_vector(31 downto 0);
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
-  
+   
  
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
    uut: sumador PORT MAP (
-          EntradaA => EntradaA,
-          EntradaB => EntradaB,
-          Salida => Salida
+          op2 => op2,
+          result => result
         );
 
-   -- Clock process definitions
-  
 
    -- Stimulus process
    stim_proc: process
    begin		
-	
-	EntradaA <= x"0000001";
-	EntradaB <= x"000000A";
-	
-	 wait for 100 ns;	
+     
+     op2<=x"0000000F"; wait for 100 ns;	
 
-
-      -- insert stimulus here 
+   
 
       wait;
    end process;

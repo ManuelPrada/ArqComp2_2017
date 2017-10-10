@@ -1,4 +1,4 @@
-V3 79
+V3 80
 FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/Alu.vhd 2017/10/10.09:05:07 P.20131013
 EN work/Alu 1507651317 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/Alu.vhd \
@@ -36,12 +36,6 @@ AR work/resgisterfile/Behavioral 1507651356 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/resgisterfile.vhd \
       EN work/resgisterfile 1507651355
 FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/sumador.vhd 2017/10/02.20:15:06 P.20131013
-EN work/sumador 1507651360 \
-      FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/sumador.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/sumador/Behavioral 1507651361 \
-      FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/sumador.vhd \
-      EN work/sumador 1507651360
 FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/U_control.vhd 2017/10/10.09:00:05 P.20131013
 EN work/U_control 1507651345 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/U_control.vhd \
@@ -98,6 +92,13 @@ FL C:/Users/manuel/Desktop/proyecto_procesador/procesador1/resgisterfile.vhd 201
 FL C:/Users/manuel/Desktop/proyecto_procesador/procesador1/SEU.vhd 2017/10/05.19:46:09 P.20131013
 FL C:/Users/manuel/Desktop/proyecto_procesador/procesador1/sumador.vhd 2017/10/02.20:15:06 P.20131013
 FL C:/Users/manuel/Desktop/proyecto_procesador/procesador1/U_control.vhd 2017/10/02.21:29:08 P.20131013
+FL "C:/Users/manuel/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd" 2017/10/09.12:31:04 P.20131013
+EN work/sumador 1507652660 \
+      FL "C:/Users/manuel/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/sumador/Behavioral 1507652661 \
+      FL "C:/Users/manuel/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd" \
+      EN work/sumador 1507652660
 FL E:/procesador1/Alu.vhd 2017/10/02.17:54:42 P.20131013
 FL F:/procesador1/Alu.vhd 2017/10/02.23:26:44 P.20131013
 FL F:/procesador1/IM.vhd 2017/10/02.20:29:04 P.20131013

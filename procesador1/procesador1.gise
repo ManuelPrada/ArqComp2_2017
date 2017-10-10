@@ -73,6 +73,7 @@
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="U_control.vhi"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="U_control.xst"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="instructionMemory.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="instructionMemory.stx"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="instructionMemory.vhi"/>
@@ -83,6 +84,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="instructionMemory_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="resgisterfile.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="resgisterfile.stx"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="resgisterfile.vhi"/>
@@ -107,8 +109,10 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_instructionMemory_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_instructionMemory_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_resgisterfile_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_resgisterfile_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_resgisterfile_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_sumador_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_sumador_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_sumador_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_sumador_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
@@ -120,9 +124,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1507652301" xil_pn:in_ck="-7995754745106748661" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1507652301">
+    <transform xil_pn:end_ts="1507652744" xil_pn:in_ck="2473715585114105593" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1507652744">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../../../../Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd"/>
       <outfile xil_pn:name="Alu.vhd"/>
       <outfile xil_pn:name="IM.vhd"/>
       <outfile xil_pn:name="Mux.vhd"/>
@@ -130,7 +135,6 @@
       <outfile xil_pn:name="SEU.vhd"/>
       <outfile xil_pn:name="U_control.vhd"/>
       <outfile xil_pn:name="resgisterfile.vhd"/>
-      <outfile xil_pn:name="sumador.vhd"/>
       <outfile xil_pn:name="tb_Alu.vhd"/>
       <outfile xil_pn:name="tb_Mux.vhd"/>
       <outfile xil_pn:name="tb_ProgramCounter.vhd"/>
@@ -152,9 +156,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1507652304" xil_pn:in_ck="-7995754745106748661" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1507652304">
+    <transform xil_pn:end_ts="1507652747" xil_pn:in_ck="2473715585114105593" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1507652747">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../../../../Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd"/>
       <outfile xil_pn:name="Alu.vhd"/>
       <outfile xil_pn:name="IM.vhd"/>
       <outfile xil_pn:name="Mux.vhd"/>
@@ -162,7 +167,6 @@
       <outfile xil_pn:name="SEU.vhd"/>
       <outfile xil_pn:name="U_control.vhd"/>
       <outfile xil_pn:name="resgisterfile.vhd"/>
-      <outfile xil_pn:name="sumador.vhd"/>
       <outfile xil_pn:name="tb_Alu.vhd"/>
       <outfile xil_pn:name="tb_Mux.vhd"/>
       <outfile xil_pn:name="tb_ProgramCounter.vhd"/>
@@ -172,18 +176,24 @@
       <outfile xil_pn:name="tb_resgisterfile.vhd"/>
       <outfile xil_pn:name="tb_sumador.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1507652362" xil_pn:in_ck="-7995754745106748661" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8017992836553026734" xil_pn:start_ts="1507652360">
-      <status xil_pn:value="FailedRun"/>
+    <transform xil_pn:end_ts="1507652752" xil_pn:in_ck="2473715585114105593" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8017992836553026734" xil_pn:start_ts="1507652747">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_sumador_beh.prj"/>
+      <outfile xil_pn:name="tb_sumador_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1507652352" xil_pn:in_ck="-1953655247297625343" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3269555918343675317" xil_pn:start_ts="1507652352">
-      <status xil_pn:value="AbortedRun"/>
+    <transform xil_pn:end_ts="1507652802" xil_pn:in_ck="-6147607164027031328" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6543396808842833733" xil_pn:start_ts="1507652802">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForced"/>
       <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="tb_resgisterfile_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_sumador_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1506991170" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1506991170">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -193,7 +203,6 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
   </transforms>
 

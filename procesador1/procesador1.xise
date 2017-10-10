@@ -21,12 +21,6 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="23"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="23"/>
     </file>
-    <file xil_pn:name="tb_sumador.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
-      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="32"/>
-      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="32"/>
-      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="32"/>
-    </file>
     <file xil_pn:name="tb_resgisterfile.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="PostMapSimulation" xil_pn:seqID="42"/>
@@ -67,7 +61,7 @@
     </file>
     <file xil_pn:name="IM.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="ProgramCounter.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -85,13 +79,19 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="sumador.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
-    </file>
     <file xil_pn:name="tb_Mux.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="../../../../Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
+    </file>
+    <file xil_pn:name="tb_sumador.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="109"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="109"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="109"/>
     </file>
   </files>
 

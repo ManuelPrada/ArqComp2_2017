@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\manuel\Desktop\ArqComp2-2017\ArqComp2_2017\procesador1\tb_resgisterfile_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/tb_resgisterfile_isim_beh.wdb 
+Running: C:\Users\manuel\Desktop\ArqComp2-2017\ArqComp2_2017\procesador1\tb_sumador_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/tb_sumador_isim_beh.wdb 
 INFO: There is another simulation running in the same directory. Using database file name isim2.wdb.
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
@@ -12,9 +12,3 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Time resolution is 1 fs
-# onerror resume
-# wave add /
-No active Database
-# run 1000 ns
-Unable to execute live simulation command.

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-10-02T20:32:28</DateModified>
-  <ModuleName>ProgramCounter</ModuleName>
+  <DateModified>2017-10-10T11:21:04</DateModified>
+  <ModuleName>Alu</ModuleName>
   <SummaryTimeStamp>2017-10-02T19:39:39</SummaryTimeStamp>
-  <SavedFilePath>F:/procesador1/iseconfig/Alu.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>F:/procesador1</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/iseconfig/Alu.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1\</ImplementationReportsDirectory>
   <DateInitialized>2017-10-02T20:08:33</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
