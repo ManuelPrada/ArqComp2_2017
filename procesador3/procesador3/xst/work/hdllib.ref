@@ -1,0 +1,25 @@
+AR programcounter behavioral C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/ProgramCounter.vhd sub00/vhpl02 1507651339
+EN resgisterfile NULL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/resgisterfile.vhd sub00/vhpl08 1508206020
+AR instructionmemory arqinstructionmemory C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/IM.vhd sub00/vhpl07 1508206017
+AR procesador2 arq_procesador2 C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/Procesador2.vhd sub00/vhpl18 1507646229
+AR mux behavioral "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/remote_sources/_/_/_/_/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd" sub00/vhpl16 1508206023
+EN psr NULL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/PSR.vhd sub00/vhpl23 1508206272
+EN seu NULL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/SEU.vhd sub00/vhpl13 1508206024
+AR sumador arq_sumador "C:/Users/manuel/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador1/sumador.vhd" sub00/vhpl19 1507654518
+AR seu behavioral C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/SEU.vhd sub00/vhpl14 1508206025
+AR sumador behavioral C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/sumador.vhd sub00/vhpl05 1508206013
+AR procesador2 behavioral C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/procesador2.vhd sub00/vhpl22 1508206029
+AR nextprogramcounter behavioral C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/nexPC.vhd sub00/vhpl21 1508206015
+EN procesador2 NULL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/procesador2.vhd sub00/vhpl17 1508206028
+AR psr behavioral C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/PSR.vhd sub00/vhpl24 1508206273
+EN programcounter NULL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/ProgramCounter.vhd sub00/vhpl01 1507651338
+EN instructionmemory NULL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/IM.vhd sub00/vhpl06 1508206016
+EN nextprogramcounter NULL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/nexPC.vhd sub00/vhpl20 1508206014
+EN mux NULL "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/remote_sources/_/_/_/_/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd" sub00/vhpl15 1508206022
+AR alu behavioral C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/Alu.vhd sub00/vhpl12 1508206027
+EN u_control NULL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/U_control.vhd sub00/vhpl10 1508206018
+EN sumador NULL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/sumador.vhd sub00/vhpl04 1508206012
+AR u_control behavioral C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/U_control.vhd sub00/vhpl11 1508206019
+EN registerfile NULL F:/procesador1/RegisterFile.vhd sub00/vhpl03 1506992621
+EN alu NULL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/Alu.vhd sub00/vhpl00 1508206026
+AR resgisterfile behavioral C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/resgisterfile.vhd sub00/vhpl09 1508206021

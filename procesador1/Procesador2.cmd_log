@@ -47,3 +47,8 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 procesador2
 map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o procesador2_map.ncd procesador2.ngd procesador2.pcf 
 par -w -intstyle ise -ol high -t 1 procesador2_map.ncd procesador2.ncd procesador2.pcf 
 trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml procesador2.twx procesador2.ncd -o procesador2.twr procesador2.pcf 
+xst -intstyle ise -ifn "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/procesador2.xst" -ofn "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/procesador2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 procesador2.ngc procesador2.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o procesador2_map.ncd procesador2.ngd procesador2.pcf 
+par -w -intstyle ise -ol high -t 1 procesador2_map.ncd procesador2.ncd procesador2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml procesador2.twx procesador2.ncd -o procesador2.twr procesador2.pcf 

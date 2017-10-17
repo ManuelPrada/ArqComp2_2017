@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-10-10T10:22:04</DateModified>
+  <DateModified>2017-10-16T20:40:28</DateModified>
   <ModuleName>Procesador2</ModuleName>
   <SummaryTimeStamp>2017-10-10T00:52:19</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/manuel/Desktop/ArqComp2-2017/procesador1/iseconfig/Procesador2.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/manuel/Desktop/ArqComp2-2017/procesador1\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1/iseconfig/procesador2.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador1\</ImplementationReportsDirectory>
   <DateInitialized>2017-10-09T20:30:56</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
