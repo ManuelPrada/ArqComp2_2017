@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/tb_PSR_isim_beh.exe" -prj "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/tb_PSR_beh.prj" "work.tb_PSR" 

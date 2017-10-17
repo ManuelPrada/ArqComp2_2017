@@ -84,10 +84,10 @@ BEGIN
    stim_proc: process
    begin		
 	
-		reset<='1';
+		rst<='1';
 		wait for 100 ns;
-                reset<='0';
-		          icc_PSRM <=  "1111"; 
+                rst<='0';
+		          icc_PSRmd <=  "1111"; 
 
       wait;
    end process;
