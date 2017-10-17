@@ -1,0 +1,9 @@
+[Inputs]
+rst
+=crs1[31:0]=
+=crs2[31:0]=
+=aluop1[5:0]=
+=aluresult[31:0]=
+[Outputs]
+=icc_PSR[3:0]=
+[BiDir]

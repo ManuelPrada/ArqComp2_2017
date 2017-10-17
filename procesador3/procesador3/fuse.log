@@ -1,19 +1,20 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/tb_PSR_isim_beh.exe -prj C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/tb_PSR_beh.prj work.tb_PSR 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/tb_PSRmd_isim_beh.exe -prj C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/tb_PSRmd_beh.prj work.tb_PSRmd 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/PSR.vhd" into library work
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/tb_PSR.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/PSRmd.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/tb_PSRmd.vhd" into library work
 Starting static elaboration
+WARNING:HDLCompiler:1316 - "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/PSRmd.vhd" Line 106: Index value <31> is out of range [5:0] of array <aluop1>
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling architecture behavioral of entity PSR [psr_default]
-Compiling architecture behavior of entity tb_psr
+Compiling architecture behavioral of entity PSRmd [psrmd_default]
+Compiling architecture behavior of entity tb_psrmd
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 5 VHDL Units
-Built simulation executable C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/tb_PSR_isim_beh.exe
-Fuse Memory Usage: 29780 KB
-Fuse CPU Usage: 608 ms
+Built simulation executable C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/tb_PSRmd_isim_beh.exe
+Fuse Memory Usage: 30044 KB
+Fuse CPU Usage: 484 ms
