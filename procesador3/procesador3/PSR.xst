@@ -1,5 +1,0 @@
-set -tmpdir "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador3/xst"
-elaborate
--ifn PSR.prj
--ifmt mixed

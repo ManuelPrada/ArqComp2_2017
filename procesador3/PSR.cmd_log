@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/utp/Downloads/Nueva carpeta/ArqComp2_2017-master/procesador3/procesador3/PSR.xst" -ofn "C:/Users/utp/Downloads/Nueva carpeta/ArqComp2_2017-master/procesador3/procesador3/PSR.syr" 
+vhdtdtfi -prj procesador3 -o "C:/Users/utp/Downloads/Nueva carpeta/ArqComp2_2017-master/procesador3/procesador3/PSR.vhi" -module PSR -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PSR.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "PSR.ngc" PSR.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o PSR_map.ncd PSR.ngd PSR.pcf 
+par -w -intstyle ise -ol high -t 1 PSR_map.ncd PSR.ncd PSR.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PSR.twx PSR.ncd -o PSR.twr PSR.pcf 
