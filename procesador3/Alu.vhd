@@ -53,16 +53,16 @@ process(dato1,dato2,operacion,carry_psr)
 	when "000101" =>salida<=dato1 nand dato2;
 	when "000110" =>salida<=dato1 xor dato2;
 	when "000111" =>salida<=dato1  xnor dato2;
-	when "001000" =>salida<=;--addcc
-   when "001001" =>salida<=;--subcc
-	when "001010" =>salida<=;--orcc
-   when "001011" =>salida<=;--orncc
-   when "001100" =>salida<=;--andcc
-   when "001101" =>salida<=;--andncc
-   when "001110" =>salida<=;--xorcc
-   when "001111" =>salida<=;--xnorcc
-   when "010000" =>salida<=;--addxcc
-   when "010001" =>salida<=;--subxcc
+	when "001000" =>salida<=dato1+dato2+carry_psr;--addcc
+   when "001001" =>salida<=dato1-dato2-carry_psr;--subcc
+	when "001010" =>salida<=dato1 or dato2;--orcc
+   when "001011" =>salida<=dato1 or not dato2;--orncc
+   when "001100" =>salida<=dato1 and dato2;--andcc
+   when "001101" =>salida<=dato1 and not dato2;--andncc
+   when "001110" =>salida<=dato1 xor dato2;--xorcc
+   when "001111" =>salida<=dato1 xnor not dato2;--xnorcc
+   when "010000" =>salida<=dato1+dato2+carry_psr;--addxcc
+   when "010001" =>salida<=dato1-dato2-carry_psr;--subxcc
   
 	when others => 
    salida <= (others=>'0'); 
