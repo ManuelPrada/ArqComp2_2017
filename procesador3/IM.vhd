@@ -39,7 +39,7 @@ architecture arqInstructionMemory of instructionMemory is
 		return temp_mem;
 	end function;
 	
-	signal instructions : rom_type := InitRomFromFile("C:\Users\manuel\Desktop\ArqComp2-2017\ArqComp2_2017\procesador1\testJMPL.txt");
+	signal instructions : rom_type := InitRomFromFile("C:\Users\manuel\Desktop\ArqComp2-2017\ArqComp2_2017\procesador3\testJMPL.txt");
 	
 begin
 --reset,address, instructions)

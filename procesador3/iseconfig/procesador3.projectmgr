@@ -10,13 +10,13 @@
          <ClosedNode>/procesador2 - Behavioral C:|Users|utp|Downloads|Nueva carpeta|ArqComp2_2017-master|procesador3|procesador3|procesador2.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>procesador2 - Behavioral (C:/Users/manuel/Downloads/Nueva carpeta (5)/procesador3/procesador2.vhd)</SelectedItem>
+         <SelectedItem>procesador2 - Behavioral (C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador2.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001f9000000020000000000000000000000000200000064ffffffff000000810000000300000002000001f90000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>procesador2 - Behavioral (C:/Users/manuel/Downloads/Nueva carpeta (5)/procesador3/procesador2.vhd)</CurrentItem>
+      <CurrentItem>procesador2 - Behavioral (C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador2.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -26,13 +26,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Synthesize - XST</SelectedItem>
+         <SelectedItem>View RTL Schematic</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000134000000010000000100000000000000000000000064ffffffff000000810000000000000001000001340000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000012b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000012b0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Synthesize - XST</CurrentItem>
+      <CurrentItem>View RTL Schematic</CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -75,34 +75,44 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/tb_Alu - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|procesador3|tb_Alu.vhd</ClosedNode>
+         <ClosedNode>/tb_Alu - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|tb_Alu.vhd</ClosedNode>
          <ClosedNode>/tb_Alu - behavior C:|Users|utp|Downloads|Nueva carpeta|ArqComp2_2017-master|procesador3|procesador3|tb_Alu.vhd</ClosedNode>
          <ClosedNode>/tb_MUX - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|procesador3|tb_MUX.vhd</ClosedNode>
+         <ClosedNode>/tb_MUX - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|tb_MUX.vhd</ClosedNode>
          <ClosedNode>/tb_MUX - behavior C:|Users|utp|Downloads|Nueva carpeta|ArqComp2_2017-master|procesador3|procesador3|tb_MUX.vhd</ClosedNode>
          <ClosedNode>/tb_PSR - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|procesador3|tb_PSR.vhd</ClosedNode>
          <ClosedNode>/tb_PSR - behavior C:|Users|utp|Downloads|Nueva carpeta|ArqComp2_2017-master|procesador3|procesador3|tb_PSR.vhd</ClosedNode>
          <ClosedNode>/tb_PSRmd - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|procesador3|tb_PSRmd.vhd</ClosedNode>
+         <ClosedNode>/tb_PSRmd - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|tb_PSRmd.vhd</ClosedNode>
          <ClosedNode>/tb_PSRmd - behavior C:|Users|utp|Downloads|Nueva carpeta|ArqComp2_2017-master|procesador3|procesador3|tb_PSRmd.vhd</ClosedNode>
          <ClosedNode>/tb_SEU - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|procesador3|tb_SEU.vhd</ClosedNode>
+         <ClosedNode>/tb_SEU - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|tb_SEU.vhd</ClosedNode>
          <ClosedNode>/tb_SEU - behavior C:|Users|utp|Downloads|Nueva carpeta|ArqComp2_2017-master|procesador3|procesador3|tb_SEU.vhd</ClosedNode>
          <ClosedNode>/tb_U_control - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|procesador3|tb_U_control.vhd</ClosedNode>
+         <ClosedNode>/tb_U_control - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|tb_U_control.vhd</ClosedNode>
          <ClosedNode>/tb_U_control - behavior C:|Users|utp|Downloads|Nueva carpeta|ArqComp2_2017-master|procesador3|procesador3|tb_U_control.vhd</ClosedNode>
          <ClosedNode>/tb_im - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|procesador3|tb_instructionMemory.vhd</ClosedNode>
+         <ClosedNode>/tb_im - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|tb_instructionMemory.vhd</ClosedNode>
          <ClosedNode>/tb_im - behavior C:|Users|utp|Downloads|Nueva carpeta|ArqComp2_2017-master|procesador3|procesador3|tb_instructionMemory.vhd</ClosedNode>
          <ClosedNode>/tb_nextProgramCounter - behavioral C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|procesador3|tb_nextProgramCounter.vhd</ClosedNode>
+         <ClosedNode>/tb_nextProgramCounter - behavioral C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|tb_nextProgramCounter.vhd</ClosedNode>
          <ClosedNode>/tb_nextProgramCounter - behavioral C:|Users|utp|Downloads|Nueva carpeta|ArqComp2_2017-master|procesador3|procesador3|tb_nextProgramCounter.vhd</ClosedNode>
          <ClosedNode>/tb_procesador2 - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|procesador3|tb_procesador2.vhd</ClosedNode>
+         <ClosedNode>/tb_procesador2 - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|tb_procesador2.vhd</ClosedNode>
          <ClosedNode>/tb_procesador2 - behavior C:|Users|utp|Downloads|Nueva carpeta|ArqComp2_2017-master|procesador3|procesador3|tb_procesador2.vhd</ClosedNode>
          <ClosedNode>/tb_resgisterfile - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|procesador3|tb_resgisterfile.vhd</ClosedNode>
+         <ClosedNode>/tb_resgisterfile - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|tb_resgisterfile.vhd</ClosedNode>
          <ClosedNode>/tb_sumador - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|procesador3|tb_sumador.vhd</ClosedNode>
+         <ClosedNode>/tb_sumador - behavior C:|Users|manuel|Desktop|ArqComp2-2017|ArqComp2_2017|procesador3|tb_sumador.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>tb_PSR - behavior (C:/Users/utp/Downloads/Nueva carpeta/ArqComp2_2017-master/procesador3/procesador3/tb_PSR.vhd)</SelectedItem>
+         <SelectedItem>tb_procesador2 - behavior (C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/tb_procesador2.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >5</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a5000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a50000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a60000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>tb_PSR - behavior (C:/Users/utp/Downloads/Nueva carpeta/ArqComp2_2017-master/procesador3/procesador3/tb_PSR.vhd)</CurrentItem>
+      <CurrentItem>tb_procesador2 - behavior (C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/tb_procesador2.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -110,26 +120,26 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013e0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Behavioral Check Syntax</SelectedItem>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013c0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Behavioral Check Syntax</CurrentItem>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>

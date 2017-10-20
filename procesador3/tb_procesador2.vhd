@@ -47,7 +47,6 @@ ARCHITECTURE behavior OF tb_procesador2 IS
         );
     END COMPONENT;
     
-
    --Inputs
    signal rst : std_logic := '0';
    signal clk : std_logic := '0';
