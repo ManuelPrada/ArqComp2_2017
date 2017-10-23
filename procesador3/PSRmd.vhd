@@ -56,7 +56,7 @@ process (rst, aluop1, aluresult, crs1, crs2 )
 				if aluop1 = "001011" or aluop1 = "001100" or aluop1 = "001001" or aluop1 = "001010" or aluop1 = "001101" or aluop1 = "001110" then 
                nzvc_psr(3) <= aluresult(31); -- El signo que traiga.
 
-            if aluresult = "00000000" then 
+            if aluresult = "00000000000000000000000000000000" then 
             nzvc_psr(2) <= '1'; -- Porque el resultado da cero.
 
 					else
@@ -78,7 +78,7 @@ process (rst, aluop1, aluresult, crs1, crs2 )
 
 					nzvc_psr(3) <= aluresult(31);
 
-					if aluresult = "00000000" then 
+					if aluresult = "00000000000000000000000000000000" then 
 						nzvc_psr(2) <= '1';
 						
 					else
@@ -98,7 +98,7 @@ process (rst, aluop1, aluresult, crs1, crs2 )
 				if aluop1 = "001000" or aluop1 = "010000" then
 				   nzvc_psr(3) <= aluresult(31);
 
-					if aluop1 = "00000000" then 
+					if aluop1 = "00000000000000000000000000000000" then 
 						nzvc_psr(2) <= '1';
 					else
                    nzvc_psr(2) <= '0';

@@ -23,13 +23,13 @@ AR work/Alu/Behavioral 1508459064 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/Alu.vhd \
       EN work/Alu 1508459063
 FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/IM.vhd 2017/10/19.17:43:49 P.20131013
-EN work/instructionMemory 1508459049 \
+EN work/instructionMemory 1508782768 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/IM.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
       PB std/TEXTIO 1381692176
-AR work/instructionMemory/arqInstructionMemory 1508459050 \
+AR work/instructionMemory/arqInstructionMemory 1508782769 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/IM.vhd \
-      EN work/instructionMemory 1508459049
+      EN work/instructionMemory 1508782768
 FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/nexPC.vhd 2017/10/16.22:01:46 P.20131013
 EN work/nextProgramCounter 1508459047 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/nexPC.vhd \
@@ -63,13 +63,13 @@ EN work/PSR 1508459061 \
 AR work/PSR/Behavioral 1508459062 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/PSR.vhd \
       EN work/PSR 1508459061
-FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/PSRmd.vhd 2017/10/19.19:08:40 P.20131013
-EN work/PSRmd 1508459059 \
+FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/PSRmd.vhd 2017/10/19.19:37:57 P.20131013
+EN work/PSRmd 1508782704 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/PSRmd.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/PSRmd/Behavioral 1508459060 \
+AR work/PSRmd/Behavioral 1508782705 \
       FL C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/PSRmd.vhd \
-      EN work/PSRmd 1508459059
+      EN work/PSRmd 1508782704
 FL "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/remote_sources/_/_/_/_/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd" 2017/10/16.22:01:46 P.20131013
 EN work/Mux 1508459055 \
       FL "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/remote_sources/_/_/_/_/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd" \
