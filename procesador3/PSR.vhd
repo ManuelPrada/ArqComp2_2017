@@ -33,6 +33,7 @@ entity PSR is
     Port ( rst : in  STD_LOGIC;
            nzvc_psr : in  STD_LOGIC_VECTOR (3 downto 0);
            Alu_acarreo : out  STD_LOGIC);
+			  
 end PSR;
 
 architecture Behavioral of PSR is
