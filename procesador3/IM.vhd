@@ -22,25 +22,12 @@ end instructionMemory;
 
 architecture arqInstructionMemory of instructionMemory is
 
-	type rom_type is array (0 to 63) of std_logic_vector (31 downto 0);
-		
-	impure function InitRomFromFile (RomFileName : in string) return rom_type is
-		FILE RomFile : text open read_mode is RomFileName;
-		variable RomFileLine : line;
-		variable temp_bv : bit_vector(31 downto 0);
-		variable temp_mem : rom_type;
-		begin
-			for I in rom_type'range loop
-				readline (RomFile, RomFileLine);
-				exit when endfile (RomFile);
-				read(RomFileLine, temp_bv);
-				temp_mem(i) := to_stdlogicvector(temp_bv);
-			end loop;
-		return temp_mem;
-	end function;
+	type rom_type is array (0 to 2) of std_logic_vector (31 downto 0);
 	
-	signal instructions : rom_type := InitRomFromFile("C:\Users\manuel\Desktop\ArqComp2-2017\ArqComp2_2017\procesador3\testJMPL.txt");
-	
+	signal instructions : rom_type :=
+("10100000000100000010000000000010",
+"10100010000100000011111111111011",                        
+"10100100101001000100000000010000");
 begin
 --reset,address, instructions)
 	process(rst,address, instructions)--clk)

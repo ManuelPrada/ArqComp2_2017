@@ -55,7 +55,7 @@ ARCHITECTURE behavior OF tb_procesador2 IS
    signal RFprocesador : std_logic_vector(31 downto 0);
 
    -- Clock period definitions
-   constant clk_period : time := 10 ns;
+   constant clk_period : time := 20 ns;
  
 BEGIN
  
@@ -83,9 +83,7 @@ BEGIN
       -- hold reset state for 100 ns.
       wait for 100 ns;	
         rst <= '0';
-      wait for clk_period*10;
-
-      -- insert stimulus here 
+    
 
       wait;
    end process;
