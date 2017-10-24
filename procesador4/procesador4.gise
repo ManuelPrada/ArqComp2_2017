@@ -19,7 +19,7 @@
 
   <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
 
-  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="procesador3.xise"/>
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="../procesador3/procesador3.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
@@ -48,7 +48,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1508803419" xil_pn:in_ck="1073179558448483878" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1508803419">
+    <transform xil_pn:end_ts="1508803419" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1508803419">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -78,19 +78,19 @@
       <outfile xil_pn:name="tb_resgisterfile.vhd"/>
       <outfile xil_pn:name="tb_sumador.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1508803439" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3568720060886857679" xil_pn:start_ts="1508803439">
+    <transform xil_pn:end_ts="1508803439" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:start_ts="1508803439">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1508803439" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6544893882600762479" xil_pn:start_ts="1508803439">
+    <transform xil_pn:end_ts="1508803439" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:start_ts="1508803439">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1508801124" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3173079047468831038" xil_pn:start_ts="1508801124">
+    <transform xil_pn:end_ts="1508801124" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:start_ts="1508801124">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1508803439" xil_pn:in_ck="1073179558448483878" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1508803439">
+    <transform xil_pn:end_ts="1508803439" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1508803439">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -121,7 +121,7 @@
       <outfile xil_pn:name="tb_resgisterfile.vhd"/>
       <outfile xil_pn:name="tb_sumador.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1508803448" xil_pn:in_ck="1073179558448483878" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4753406125028420256" xil_pn:start_ts="1508803439">
+    <transform xil_pn:end_ts="1508803448" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:start_ts="1508803439">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -136,7 +136,7 @@
       <outfile xil_pn:name="tb_procesador2_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1508803465" xil_pn:in_ck="696065315380261352" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-859526629202882931" xil_pn:start_ts="1508803465">
+    <transform xil_pn:end_ts="1508803465" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:start_ts="1508803465">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
