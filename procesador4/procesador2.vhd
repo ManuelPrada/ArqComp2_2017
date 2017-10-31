@@ -64,7 +64,22 @@ COMPONENT sumador
 		);
 	END COMPONENT;
 
-		
+		COMPONENT winmanager
+	PORT(
+		rs1 : IN std_logic_vector(4 downto 0);
+		rs2 : IN std_logic_vector(4 downto 0);
+		rd : IN std_logic_vector(4 downto 0);
+		op : IN std_logic_vector(1 downto 0);
+		op3 : IN std_logic_vector(5 downto 0);
+		cwp : IN std_logic_vector(1 downto 0);          
+		nrs1 : OUT std_logic_vector(5 downto 0);
+		nrs2 : OUT std_logic_vector(5 downto 0);
+		nrd : OUT std_logic_vector(5 downto 0);
+		ncwp : OUT std_logic_vector(1 downto 0)
+		);
+	END COMPONENT;
+
+
 	COMPONENT U_control
 	PORT(
 		op : IN std_logic_vector(1 downto 0);
@@ -75,9 +90,9 @@ COMPONENT sumador
 
 COMPONENT resgisterfile
 	PORT(
-		rs1 : IN std_logic_vector(4 downto 0);
-		rs2 : IN std_logic_vector(4 downto 0);
-		rd : IN std_logic_vector(4 downto 0);
+		rs1 : IN std_logic_vector(5 downto 0);
+		rs2 : IN std_logic_vector(5 downto 0);
+		rd : IN std_logic_vector(5 downto 0);
 		rst : IN std_logic;		
 		dwr : IN std_logic_vector(31 downto 0);          
 		rsalida1 : OUT std_logic_vector(31 downto 0);
@@ -115,11 +130,11 @@ COMPONENT SEU
 	END COMPONENT;
 
 	COMPONENT PSR
-	PORT(
-		rst : IN std_logic;
-		nzvc_psr : IN std_logic_vector(3 downto 0);          
-		Alu_acarreo : OUT std_logic
-		);
+		Port (nzvc_psr : in  STD_LOGIC_VECTOR (3 downto 0);
+           rst : in  STD_LOGIC;         
+			  ncwp: in STD_LOGIC_VECTOR (1 downto 0);
+			  cwp: out STD_LOGIC_VECTOR (1 downto 0);
+			  Alu_acarreo : out  STD_LOGIC);
 	END COMPONENT;
 
 COMPONENT Alu
@@ -134,10 +149,12 @@ COMPONENT Alu
 	
 	
 signal  sumadorToNPC, npcToPC, pcToIM, imToURS, aluresult, rfToALU1, rfToMUX, seuToMUX, muxToALU:STD_LOGIC_VECTOR (31 downto 0);
-signal aluop1: STD_LOGIC_VECTOR (5 downto 0);
+signal aluop1, wdsTors1, wdsTors2, wdsTord: STD_LOGIC_VECTOR (5 downto 0);
 signal psr_modifier:STD_LOGIC_VECTOR (3 downto 0);
 signal carry:  STD_LOGIC;
+signal wdstopsr,psrtowds:STD_LOGIC_VECTOR (1 downto 0);
 begin
+
 Inst_sumador: sumador PORT MAP(
 		entradaA => x"00000001",
 		entradaB => npcToPC,
@@ -164,6 +181,19 @@ Inst_instructionMemory: instructionMemory PORT MAP(
 		outInstruction => imToURS
 	);
 	
+Inst_winmanager: winmanager PORT MAP(
+		rs1 =>imToURS(18 downto 14) ,
+		rs2 =>imToURS(4 downto 0) ,
+		rd =>imToURS(29 downto 25) ,
+		op =>imToURS(31 downto 30) ,
+		op3 =>imToURS(24 downto 19) ,
+		cwp => psrtowds ,
+		nrs1 => wdsTors1,
+		nrs2 => wdsTors2,
+		nrd => wdsTord,
+		ncwp => wdstopsr
+	);
+
 Inst_U_control: U_control PORT MAP(
 		op => imToURS(31 downto 30),
 		op3 => imToURS(24 downto 19),
@@ -171,9 +201,9 @@ Inst_U_control: U_control PORT MAP(
 	);
 	
 Inst_resgisterfile: resgisterfile PORT MAP(
-		rs1 => imToURS(18 downto 14),
-		rs2 => imToURS(4 downto 0),
-		rd => imToURS(29 downto 25),
+		rs1 => wdsTors1,
+		rs2 => wdsTors2,
+		rd => wdsTord,
 		rst => rst,
 		dwr => aluresult,
 		rsalida1 => rfToALU1,
@@ -206,7 +236,9 @@ Inst_PSRmd: PSRmd PORT MAP(
 Inst_PSR: PSR PORT MAP(
 		rst => rst,
 		nzvc_psr =>psr_modifier ,
-		Alu_acarreo => carry
+		Alu_acarreo => carry,
+		ncwp=> wdsTopsr,
+		cwp => psrTowds
 	);
 
 	

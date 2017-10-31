@@ -60,7 +60,8 @@ begin
   when "010111" =>salida<="001111";--xnorcc
   when "011000" =>salida<="010000";--addxcc
   when "011100" =>salida<="010001";--subxcc
-
+  when "111100" =>salida<="000000"; -- save 
+  when "111101" =>salida<="000000"; -- restore 
   when others=>salida<="111111";
   
   end case;

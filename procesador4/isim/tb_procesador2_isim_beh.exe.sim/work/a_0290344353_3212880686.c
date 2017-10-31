@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/remote_sources/_/_/_/_/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd";
+static const char *ng0 = "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/remote_sources/_/_/_/_/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd";
 
 
 

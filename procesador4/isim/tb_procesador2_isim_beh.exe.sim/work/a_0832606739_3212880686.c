@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/Alu.vhd";
+static const char *ng0 = "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/Alu.vhd";
 extern char *IEEE_P_3620187407;
 extern char *IEEE_P_2592010699;
 

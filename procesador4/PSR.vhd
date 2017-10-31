@@ -19,7 +19,8 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --use IEEE.NUMERIC_STD.ALL;
@@ -30,10 +31,13 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity PSR is
-    Port ( rst : in  STD_LOGIC;
-           nzvc_psr : in  STD_LOGIC_VECTOR (3 downto 0);
-           Alu_acarreo : out  STD_LOGIC);
+    Port (nzvc_psr : in  STD_LOGIC_VECTOR (3 downto 0);
+           rst : in  STD_LOGIC;         
+			  ncwp: in STD_LOGIC_VECTOR (1 downto 0);
+			  cwp: out STD_LOGIC_VECTOR (1 downto 0);
+			  Alu_acarreo : out  STD_LOGIC);
 			  
+			 
 end PSR;
 
 architecture Behavioral of PSR is
@@ -45,9 +49,11 @@ process(rst,nzvc_psr)
 		begin
 			if (rst = '1') then 		
 			Alu_acarreo <= '0';
+			cwp<="00";
 
 			else
 			Alu_acarreo <= nzvc_psr(0);
+			cwp<=ncwp;
 				 
          end if;
 end process;

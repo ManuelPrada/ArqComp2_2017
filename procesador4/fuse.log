@@ -1,20 +1,21 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/tb_procesador2_isim_beh.exe -prj C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/tb_procesador2_beh.prj work.tb_procesador2 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/tb_procesador2_isim_beh.exe -prj C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/tb_procesador2_beh.prj work.tb_procesador2 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/U_control.vhd" into library work
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/sumador.vhd" into library work
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/SEU.vhd" into library work
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/resgisterfile.vhd" into library work
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/remote_sources/_/_/_/_/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd" into library work
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/PSRmd.vhd" into library work
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/PSR.vhd" into library work
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/nexPC.vhd" into library work
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/IM.vhd" into library work
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/Alu.vhd" into library work
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/procesador2.vhd" into library work
-Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/tb_procesador2.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/windows_manager.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/U_control.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/sumador.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/SEU.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/resgisterfile.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/remote_sources/_/_/_/_/Downloads/Nueva carpeta (3)/ArqComp2-2017-master/procesador2/MUX.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/PSRmd.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/PSR.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/nexPC.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/IM.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/Alu.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/procesador2.vhd" into library work
+Parsing VHDL file "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/tb_procesador2.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
@@ -25,6 +26,7 @@ Compiling package textio
 Compiling architecture behavioral of entity sumador [sumador_default]
 Compiling architecture behavioral of entity nextProgramCounter [nextprogramcounter_default]
 Compiling architecture arqinstructionmemory of entity instructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity winmanager [winmanager_default]
 Compiling architecture behavioral of entity U_control [u_control_default]
 Compiling architecture behavioral of entity resgisterfile [resgisterfile_default]
 Compiling architecture behavioral of entity MUX [mux_default]
@@ -35,8 +37,8 @@ Compiling architecture behavioral of entity Alu [alu_default]
 Compiling architecture behavioral of entity procesador2 [procesador2_default]
 Compiling architecture behavior of entity tb_procesador2
 Time Resolution for simulation is 1ps.
-Waiting for 9 sub-compilation(s) to finish...
-Compiled 28 VHDL Units
-Built simulation executable C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/tb_procesador2_isim_beh.exe
-Fuse Memory Usage: 34892 KB
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 30 VHDL Units
+Built simulation executable C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/tb_procesador2_isim_beh.exe
+Fuse Memory Usage: 34448 KB
 Fuse CPU Usage: 812 ms

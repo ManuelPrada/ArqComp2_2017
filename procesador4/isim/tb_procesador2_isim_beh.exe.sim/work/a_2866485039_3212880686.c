@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador3/resgisterfile.vhd";
+static const char *ng0 = "C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/resgisterfile.vhd";
 extern char *IEEE_P_3620187407;
 
 unsigned char ieee_p_3620187407_sub_4042748798_3965413181(char *, char *, char *, char *, char *);
@@ -70,7 +70,7 @@ LAB4:    xsi_set_current_line(61, ng0);
     t13 = ieee_p_3620187407_sub_514432868_3965413181(IEEE_P_3620187407, t5, t1);
     t14 = (t13 - 0);
     t11 = (t14 * 1);
-    xsi_vhdl_check_range_of_index(0, 31, 1, t13);
+    xsi_vhdl_check_range_of_index(0, 39, 1, t13);
     t15 = (32U * t11);
     t16 = (0 + t15);
     t6 = (t2 + t16);
@@ -90,7 +90,7 @@ LAB4:    xsi_set_current_line(61, ng0);
     t13 = ieee_p_3620187407_sub_514432868_3965413181(IEEE_P_3620187407, t5, t1);
     t14 = (t13 - 0);
     t11 = (t14 * 1);
-    xsi_vhdl_check_range_of_index(0, 31, 1, t13);
+    xsi_vhdl_check_range_of_index(0, 39, 1, t13);
     t15 = (32U * t11);
     t16 = (0 + t15);
     t6 = (t2 + t16);
@@ -105,7 +105,7 @@ LAB4:    xsi_set_current_line(61, ng0);
     t1 = (t0 + 1352U);
     t2 = *((char **)t1);
     t1 = (t0 + 6508U);
-    t5 = (t0 + 7716);
+    t5 = (t0 + 7975);
     t7 = (t17 + 0U);
     t8 = (t7 + 0U);
     *((int *)t8) = 0;
@@ -153,10 +153,10 @@ LAB2:    xsi_set_current_line(56, ng0);
     memcpy(t9, t1, 32U);
     xsi_driver_first_trans_fast_port(t5);
     xsi_set_current_line(59, ng0);
-    t1 = xsi_get_transient_memory(1024U);
-    memset(t1, 0, 1024U);
+    t1 = xsi_get_transient_memory(1280U);
+    memset(t1, 0, 1280U);
     t2 = t1;
-    t5 = (t0 + 7684);
+    t5 = (t0 + 7943);
     t3 = (32U != 0);
     if (t3 == 1)
         goto LAB5;
@@ -166,11 +166,11 @@ LAB6:    t7 = (t0 + 3840);
     t9 = *((char **)t8);
     t10 = (t9 + 56U);
     t12 = *((char **)t10);
-    memcpy(t12, t1, 1024U);
+    memcpy(t12, t1, 1280U);
     xsi_driver_first_trans_fast(t7);
     goto LAB3;
 
-LAB5:    t11 = (1024U / 32U);
+LAB5:    t11 = (1280U / 32U);
     xsi_mem_set_data(t2, t5, 32U, t11);
     goto LAB6;
 

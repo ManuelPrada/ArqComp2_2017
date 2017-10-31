@@ -26,8 +26,8 @@ architecture arqInstructionMemory of instructionMemory is
 	
 	signal instructions : rom_type :=
 ("10100000000100000010000000000010",
-"10100010000100000011111111111011",                        
-"10100100101001000100000000010000");
+"10100010000100000011111111111001",                        
+"10100101111010000100000000010000");
 begin
 --reset,address, instructions)
 	process(rst,address, instructions)--clk)

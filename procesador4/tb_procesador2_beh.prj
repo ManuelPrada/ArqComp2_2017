@@ -1,3 +1,4 @@
+vhdl work "windows_manager.vhd"
 vhdl work "U_control.vhd"
 vhdl work "sumador.vhd"
 vhdl work "SEU.vhd"
