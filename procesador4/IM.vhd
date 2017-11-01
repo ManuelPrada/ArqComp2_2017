@@ -22,12 +22,17 @@ end instructionMemory;
 
 architecture arqInstructionMemory of instructionMemory is
 
-	type rom_type is array (0 to 2) of std_logic_vector (31 downto 0);
+	type rom_type is array (0 to 3) of std_logic_vector (31 downto 0);
 	
-	signal instructions : rom_type :=
-("10100000000100000010000000000010",
-"10100010000100000011111111111001",                        
-"10100101111010000100000000010000");
+ signal instructions : rom_type :=( 
+ 
+  "10100000000100000010000000000101",
+  "10100010000100000010000000000110",  
+  "10100100000001000000000000010001",                      
+  "10100101111001000000000000010001"
+  );
+  
+  
 begin
 --reset,address, instructions)
 	process(rst,address, instructions)--clk)

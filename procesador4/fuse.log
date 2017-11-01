@@ -40,5 +40,5 @@ Time Resolution for simulation is 1ps.
 Waiting for 10 sub-compilation(s) to finish...
 Compiled 30 VHDL Units
 Built simulation executable C:/Users/manuel/Desktop/ArqComp2-2017/ArqComp2_2017/procesador4/tb_procesador2_isim_beh.exe
-Fuse Memory Usage: 34448 KB
-Fuse CPU Usage: 812 ms
+Fuse Memory Usage: 35088 KB
+Fuse CPU Usage: 921 ms

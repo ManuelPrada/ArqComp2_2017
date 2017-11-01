@@ -1,31 +1,31 @@
 Command line:
    tb_procesador2_isim_beh.exe
      -simmode  gui
-     -simrunnum  0
-     -socket  50540
+     -simrunnum  1
+     -socket  49932
 
-Tue Oct 31 17:18:11 2017
+Tue Oct 31 19:38:56 2017
 
 
- Elaboration Time: 0.046875 sec
+ Elaboration Time: 0.0625 sec
 
- Current Memory Usage: 850.014 Meg
+ Current Memory Usage: 849.973 Meg
 
  Total Signals          : 85
- Total Nets             : 1766
+ Total Nets             : 1798
  Total Signal Drivers   : 24
  Total Blocks           : 18
  Total Primitive Blocks : 16
  Total Processes        : 18
  Total Traceable Variables  : 11
- Total Scalar Nets and Variables : 2145
+ Total Scalar Nets and Variables : 2177
 Total Line Count : 132
-In process IM.vhd:33 
+In process IM.vhd:38 
  
 
- Total Simulation Time: 0.0625 sec
+ Total Simulation Time: 0.140625 sec
 
- Current Memory Usage: 1007.3 Meg
+ Current Memory Usage: 1007.26 Meg
 
-Tue Oct 31 17:24:06 2017
+Tue Oct 31 19:47:49 2017
 
